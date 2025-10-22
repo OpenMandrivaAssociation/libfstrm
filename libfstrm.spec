@@ -11,6 +11,7 @@ URL:		https://github.com/farsightsec/fstrm
 License:	GPL
 Group:		System/Libraries
 BuildRequires:	autoconf automake slibtool
+BuildRequires:	pkgconfig(libevent)
 BuildSystem:	autotools
 
 %description
